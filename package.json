@@ -1,0 +1,19 @@
+{
+  "name": "instaspace-erp",
+  "version": "1.0.0",
+  "description": "InstaSpace internal team ERP portal (tasks, roles, role-based dashboards).",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-session": "^2.1.0",
+    "express": "^4.19.2"
+  }
+}
